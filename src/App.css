@@ -2,31 +2,66 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.header-block {
+  background-color: #30323D;
+  padding: 10vmin 1rem;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-stretch: expanded;
+  color: #5C80BC;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.body {
+  background-color: #CDD1C4;
+  height: 100vmax;
 }
 
-.App-link {
-  color: #61dafb;
+.block-paragraph {
+  text-indent: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  width: 60%;
+  margin: 15px;
+  padding: 25px;
+  border: 5px solid #303030;
+  border-radius: 20px;
+  float: left;
+  /* background-color: #30323D; */
 }
+
+.navBar {
+  background-color: #4D5061;
+  border-width: 5px;
+  /* border-color: #5C80BC; */
+  /* border-style: solid; */
+  width: 10%;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width:100%;
+  background-color: rgba(77, 80, 97, 1);
+}
+
+.link {
+  color: #E8C547;
+}
+
+/*
+$color1: rgba(232, 197, 71, 1);
+$color2: rgba(48, 50, 61, 1);
+$color3: rgba(77, 80, 97, 1);
+$color4: rgba(92, 128, 188, 1);
+$color5: rgba(205, 209, 196, 1);
+*/
