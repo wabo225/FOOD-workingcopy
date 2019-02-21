@@ -12,7 +12,7 @@ export default class App extends Component {
         return (
             <div className='body'>
                 <Header>
-                    <p>Analysis of Food</p>
+                    <p>Nothing more than a Food Blog</p>
                 </Header>
                 <Router>
                     <div>
