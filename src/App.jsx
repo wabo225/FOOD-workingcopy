@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import {  BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { Home } from './routes/Home';
 import { About } from './routes/about';
-import { Fire } from './routes/fire';
+import { Family } from './routes/family';
 import { Navigation } from './Navigation Bar';
+import { RoadTrip } from './routes/road'; 
 import Footer from './Footer';
 import Header from './Header'
 
@@ -20,8 +21,9 @@ export default class App extends Component {
                         <Switch>
                             <div>
                                 <Route exact path='/' component={Home}></Route>
-                                <Route path='/1millionBC' component={Fire}></Route>
+                                <Route path='/family' component={Family}></Route>
                                 <Route path='/about' component={About}></Route>
+                                <Route path='/Road-trip' component={RoadTrip}></Route>
                             </div>
                         </Switch>
                         <Footer>

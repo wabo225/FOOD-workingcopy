@@ -9,7 +9,7 @@ class Header extends Component {
                 backgroundColor: "#30323D",
                 padding: "10vmin 1rem",
                 textAlign: "center",
-                fontSize: "38px",
+                fontSize: "44px",
                 fontStretch: "expanded",
                 color: "#5C80BC",
                 height: 100

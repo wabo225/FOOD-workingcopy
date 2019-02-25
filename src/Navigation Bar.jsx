@@ -7,7 +7,8 @@ export class Navigation extends Component {
         return( 
             <div className='navBar'>
                 <div><Link className="link" to='/'>Home</Link></div>
-                <div><Link className='link' to='/1millionBC'>1,000,000 BC</Link></div>
+                <div><Link className='link' to='/family'>Family</Link></div>
+                <div><Link className='link' to='/Road-Trip'>Road Trip</Link></div>
                 <div><Link className='link' to='/about'>About</Link></div>
             </div>
         )
